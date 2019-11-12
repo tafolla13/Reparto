@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Reparto SAHUAYO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sahuayo</string>
+    <string name="nav_header_subtitle">Reparto</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Recepcion Unidad</string>
+    <string name="menu_gallery">Salida Cedis</string>
+    <string name="menu_slideshow">Evento</string>
+    <string name="menu_tools">Facturas</string>
+    <string name="gastos">Gastos</string>
+    <string name="llegada">Llegada Cedis</string>
+    <string name="entrega">Entrega Unidad</string>
+
+
+    <string name="menu_share">Resumen Liquidación</string>
+    <string name="menu_send">Reporte Devolución</string>
+</resources>
