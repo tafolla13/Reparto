@@ -7,44 +7,40 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="Recepción" />
+
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="Combustible" />//String de SlideShow
         <item
             android:id="@+id/nav_tools"
             android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:title="Maniobras" />//String de tools
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Eventos" />
 
         <item
             android:id="@+id/nav_gastos"
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/gastos" />
-        <item
-            android:id="@+id/nav_llegada"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/llegada" />
-        <item
-            android:id="@+id/nav_entrega"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/entrega" />
+
+
     </group>
 
     <item android:title="Reporte Guía">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
+                android:id="@+id/nav_entrega"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/entrega" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Lista de Eventos" />//String send
+
         </menu>
     </item>
 

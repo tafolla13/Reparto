@@ -14,8 +14,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.myapplication.R;
-import com.example.myapplication.TabAdapter;
+import com.example.repartosahuayo.R;
+import com.example.repartosahuayo.TabAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 /**

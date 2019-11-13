@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/nav_entrega"
-        android:name="com.example.repartosahuayo.ui.Devolucion.SendFragment"
+        android:name="com.example.repartosahuayo.ui.Factura.ContactosFragment"
         android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        tools:layout="@layout/fragment_contactos" />
     <fragment
         android:id="@+id/nav_llegada"
         android:name="com.example.repartosahuayo.ui.Devolucion.SendFragment"
@@ -17,42 +17,41 @@
         tools:layout="@layout/fragment_send" />
     <fragment
         android:id="@+id/nav_gastos"
-        android:name="com.example.repartosahuayo.ui.Devolucion.SendFragment"
+        android:name="com.example.repartosahuayo.ui.Gasto.Gastos"
         android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        tools:layout="@layout/gastos" />
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.repartosahuayo.ui.Recepcion.HomeFragment"
+        android:name="com.example.repartosahuayo.ui.Factura.MainFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_main" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.repartosahuayo.ui.SalidaCedis.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:label="@string/menu_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.repartosahuayo.ui.Evento.SlideshowFragment"
+        android:name="com.example.repartosahuayo.ui.Gasto.Combustible"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_combustible" />
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="com.example.repartosahuayo.ui.Factura.ToolsFragment"
+        android:name="com.example.repartosahuayo.ui.Gasto.Maniobras"
         android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_maniobras" />
 
     <fragment
         android:id="@+id/nav_share"
-        android:name="com.example.repartosahuayo.ui.Liquidacion.ShareFragment"
+        android:name="com.example.repartosahuayo.ui.Gasto.ApartadoEventosFragment"
         android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
+        tools:layout="@layout/fragment_apartado_eventos" />
 
     <fragment
         android:id="@+id/nav_send"
-        android:name="com.example.repartosahuayo.ui.Devolucion.SendFragment"
+        android:name="com.example.repartosahuayo.ui.Gasto.BlankFragment"
         android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        tools:layout="@layout/fragment_blank" />
 </navigation>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".gastosembarque.Combustible">
+    tools:context=".ui.Gasto.Combustible">
 
     <TextView
         android:id="@+id/textView"
@@ -23,7 +23,6 @@
         android:id="@+id/simpleChronometer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:textColor="@color/colorGrayDark"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,46 +34,46 @@
         android:id="@+id/imageView"
         android:layout_width="272dp"
         android:layout_height="304dp"
-        android:layout_marginTop="16dp"
         android:contentDescription="@string/img_combust"
         android:src="@mipmap/combustile"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="116dp"
-        android:layout_height="27dp"
+        android:layout_width="127dp"
+        android:layout_height="31dp"
         android:layout_marginStart="51dp"
         android:layout_marginLeft="51dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="301dp"
         android:layout_marginRight="301dp"
         android:text="@string/imp_gasto"
         android:textColor="@color/colorAccent"
-        app:fontFamily="@font/cormorant_unicase_semibold"
+        app:fontFamily="@font/convergence"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/simpleChronometer" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:layout_width="290dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="51dp"
-        android:layout_marginLeft="51dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="147dp"
-        android:layout_marginRight="147dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="@string/imp_gasto"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:text="$200.00"
+        android:textColorHint="#57000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        android:autofillHints="@string/imp_gasto" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView3"
@@ -82,14 +81,39 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="53dp"
         android:layout_marginLeft="53dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="299dp"
         android:layout_marginRight="299dp"
         android:text="@string/tip_gasto"
         android:textColor="@color/colorAccent"
+        app:fontFamily="@font/convergence"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.028"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:background="#216088"
+        android:text="@string/boton_terminar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="562dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
