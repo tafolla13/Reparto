@@ -31,7 +31,7 @@ public class Combustible extends Fragment {
         View rootView=inflater.inflate(R.layout.fragment_combustible, container, false);
         Chronometer simpleChronometer = (Chronometer)rootView.findViewById(R.id.simpleChronometer); // initiate a chronometer
         simpleChronometer.start();
-        Mensaje(rootView);
+        //Mensaje(rootView);
         return rootView;
     }
     /*public Dialog onCreateDialog(View savedInstanceState){
