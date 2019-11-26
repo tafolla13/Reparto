@@ -10,14 +10,6 @@
             android:title="Recepción" />
 
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Combustible" />//String de SlideShow
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Maniobras" />//String de tools
-        <item
             android:id="@+id/nav_share"
             android:icon="@drawable/ic_menu_share"
             android:title="Eventos" />

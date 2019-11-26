@@ -10,6 +10,10 @@
         android:id="@+id/imageView2"
         android:layout_width="213dp"
         android:layout_height="143dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:src="@mipmap/cinco"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,9 +21,11 @@
 
     <TextView
         android:id="@+id/textView4"
+        style="@style/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AGREGAR UN GASTO"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.632"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
@@ -29,15 +35,18 @@
         android:id="@+id/imageView3"
         android:layout_width="95dp"
         android:layout_height="78dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
         android:src="@mipmap/maniobras"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView5"
+        style="@style/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MANIOBRAS"
@@ -49,17 +58,18 @@
         android:id="@+id/imageView5"
         android:layout_width="95dp"
         android:layout_height="78dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:src="@mipmap/casetas"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintHorizontal_bias="0.796"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView6"
+        style="@style/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CASETAS"
@@ -71,7 +81,7 @@
         android:id="@+id/imageView6"
         android:layout_width="95dp"
         android:layout_height="78dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:src="@mipmap/fletes"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="1.0"
@@ -80,6 +90,7 @@
 
     <TextView
         android:id="@+id/textView7"
+        style="@style/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="FLETES"
@@ -91,7 +102,7 @@
         android:id="@+id/imageView7"
         android:layout_width="95dp"
         android:layout_height="78dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:src="@mipmap/talachas"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
         app:layout_constraintHorizontal_bias="0.0"
@@ -100,6 +111,7 @@
 
     <TextView
         android:id="@+id/textView8"
+        style="@style/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TALACHAS"
@@ -111,7 +123,7 @@
         android:id="@+id/imageView8"
         android:layout_width="95dp"
         android:layout_height="78dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="25dp"
         android:src="@mipmap/estacionamiento"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
         app:layout_constraintHorizontal_bias="0.0"
@@ -120,6 +132,7 @@
 
     <TextView
         android:id="@+id/textView9"
+        style="@style/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ESTACIONAMIENTO"
@@ -131,7 +144,7 @@
         android:id="@+id/imageView9"
         android:layout_width="95dp"
         android:layout_height="78dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="25dp"
         android:src="@mipmap/otrosgastos"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
@@ -139,6 +152,7 @@
 
     <TextView
         android:id="@+id/textView10"
+        style="@style/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="OTROS GASTOS"
