@@ -69,7 +69,6 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/llegada"
                 android:layout_width="80dp"
@@ -98,7 +97,6 @@
                 android:layout_marginLeft="10dp"
                 app:srcCompat="@mipmap/delivery4" />
         </TableRow>
-
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
