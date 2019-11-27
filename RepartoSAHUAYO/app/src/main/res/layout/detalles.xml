@@ -6,41 +6,35 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Clave producto"
-            android:textColor="#ed1c24"/>
+            android:text="Clave producto"/>
         <TextView
             android:id="@+id/clave"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="HA0717"
-            android:layout_marginLeft="110dp"
-            android:textColor="#17134b"/>
+            android:layout_marginLeft="110dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nombre del producto"
-            android:layout_marginTop="25dp"
-            android:textColor="#ed1c24"/>
+            android:layout_marginTop="25dp"/>
         <TextView
             android:id="@+id/producto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mariana Minsa de Maiz 10/1 KGS"
-            android:layout_marginTop="45dp"
-            android:textColor="#17134b"/>
+            android:layout_marginTop="45dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Total"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="270dp"
-            android:textColor="#ed1c24"/>
+            android:layout_marginLeft="270dp"/>
         <TextView
             android:id="@+id/total"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2"
             android:layout_marginTop="35dp"
-            android:layout_marginLeft="280dp"
-            android:textColor="#17134b"/>
+            android:layout_marginLeft="280dp"/>
     </androidx.cardview.widget.CardView>

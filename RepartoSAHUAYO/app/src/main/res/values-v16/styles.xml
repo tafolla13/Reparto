@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="texto">
+        <item name="android:fontFamily">@font/arbutus_slab</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="texto2">
+        <item name="android:fontFamily">@font/adamina</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="titulo">
+        <item name="android:fontFamily">@font/artifika</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">28dp</item>
+    </style>
+</resources>
