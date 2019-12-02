@@ -6,16 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".ui.Factura.InformacionFragment">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <ListView
         android:id="@+id/recycler"
-        android:layout_width="match_parent"
-        android:layout_height="491dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="410dp"
+        android:layout_height="529dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent">
-
-    </androidx.recyclerview.widget.RecyclerView>
-
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
