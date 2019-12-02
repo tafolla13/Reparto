@@ -49,13 +49,29 @@ public class MainFragment extends Fragment {
         Salida=rootView.findViewById(R.id.textView17);
         viewPager = rootView.findViewById(R.id.viewpager);
         tabLayout = rootView.findViewById(R.id.tabs);
+        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
+            }
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+
+
         Lleg(rootView);
         Inicio(rootView);
         Fin(rootView);
         Salida(rootView);
         return rootView;
     }
-    public void Lleg(View view){
+    public void Lleg(final View view){
         lle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
