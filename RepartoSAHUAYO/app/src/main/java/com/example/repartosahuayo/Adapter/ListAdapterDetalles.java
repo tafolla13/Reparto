@@ -13,13 +13,13 @@ import com.example.repartosahuayo.R;
 
 import java.util.ArrayList;
 
-public class ListAdapter extends ArrayAdapter<Datos> implements View.OnClickListener {
+public class ListAdapterDetalles extends ArrayAdapter<Datos> implements View.OnClickListener {
     private ArrayList<Datos> datos;
     Context mcontext;
     private static class ViewHolder{
         public TextView clave_producto,nombre_del_producto,total;
     }
-    public ListAdapter(ArrayList<Datos>items,Context context){
+    public ListAdapterDetalles(ArrayList<Datos>items, Context context){
         super(context, R.layout.detalles,items);
         this.datos=items;
         this.mcontext=context;

@@ -10,7 +10,7 @@ import android.widget.ListView;
 import androidx.fragment.app.Fragment;
 
 import com.example.repartosahuayo.Adapter.Datos;
-import com.example.repartosahuayo.Adapter.ListAdapter;
+import com.example.repartosahuayo.Adapter.ListAdapterDetalles;
 import com.example.repartosahuayo.R;
 
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ import java.util.ArrayList;
  */
 public class InformacionFragment extends Fragment {
     private ListView listView;
-    private static ListAdapter adapter;
+    private static ListAdapterDetalles adapter;
     ArrayList<Datos> items;
 
 
@@ -43,7 +43,7 @@ public class InformacionFragment extends Fragment {
         items.add(new Datos("dcfdfds","dsds",2));
         items.add(new Datos("HA0717","Coca-cola",10));
         items.add(new Datos("G13G14","Pepsi",15));
-        adapter = new ListAdapter(items,getActivity().getApplicationContext());
+        adapter = new ListAdapterDetalles(items,getActivity().getApplicationContext());
         listView.setAdapter(adapter);
     }
 
