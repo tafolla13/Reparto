@@ -8,31 +8,20 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <ListView
-        android:id="@+id/list"
-        android:layout_width="410dp"
-        android:layout_height="374dp"
-        android:layout_marginBottom="44dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="411dp"
-        android:layout_height="109dp"
-        android:layout_marginTop="108dp"
+        android:layout_height="70dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:src="@mipmap/usuario" />
 
         <TextView
@@ -41,8 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"
             android:layout_marginTop="15dp"
-            android:textColor="#ed1c24"
-            android:text="Pedrozo Ana Maria" />
+            android:text="Pedrozo Ana Maria"
+            android:textColor="#ed1c24" />
 
         <TextView
             android:id="@+id/Descripcion"
@@ -50,8 +39,20 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"
             android:layout_marginTop="40dp"
-            android:textColor="#17134b"
-            android:text="Encargada Abarrotes Santa Cruz" />
+            android:text="Encargada Abarrotes Santa Cruz"
+            android:textColor="#17134b" />
     </androidx.cardview.widget.CardView>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="408dp"
+        android:layout_height="233dp"
+        android:layout_marginBottom="16dp"
+        android:padding="4dp"
+        android:paddingTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

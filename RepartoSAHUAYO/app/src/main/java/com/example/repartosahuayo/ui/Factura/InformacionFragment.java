@@ -40,9 +40,9 @@ public class InformacionFragment extends Fragment {
     public void Dato(View v){
         listView = v.findViewById(R.id.recycler);
         items = new ArrayList<>();
-        items.add(new Datos("dcfdfds","dsds",2));
-        items.add(new Datos("HA0717","Coca-cola",10));
-        items.add(new Datos("G13G14","Pepsi",15));
+        items.add(new Datos("SE0312","SERVITOALLA PETALO 3 X 2 60 HOJAS 12/2 UNI.",1));
+        items.add(new Datos("IN0146","INSECTICIDA RAID AEROSOL CASA Y JARDIN 12/400 MLS.",1));
+        items.add(new Datos("FR0157","FRIJOLES ISADORA REFRITOS NEGROS 24/430 GRS.",1));
         adapter = new ListAdapterDetalles(items,getActivity().getApplicationContext());
         listView.setAdapter(adapter);
     }
