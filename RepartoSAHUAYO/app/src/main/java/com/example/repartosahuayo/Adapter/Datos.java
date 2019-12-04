@@ -2,9 +2,9 @@ package com.example.repartosahuayo.Adapter;
 
 public class Datos {
     private String clave_producto;
-    private double total;
+    private int total;
     private String nombre_producto;
-    public Datos(String clave_producto, String nombre_producto, double total){
+    public Datos(String clave_producto, String nombre_producto, int total){
         this.clave_producto = clave_producto;
         this.nombre_producto = nombre_producto;
         this.total = total;
@@ -18,7 +18,7 @@ public class Datos {
         return nombre_producto;
     }
 
-    public double getTotal() {
+    public int getTotal() {
         return total;
     }
 }

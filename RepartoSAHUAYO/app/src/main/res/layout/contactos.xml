@@ -6,23 +6,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="65dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:src="@drawable/circle"/>
         <TextView
             android:id="@+id/contacto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="178dp"
+            android:layout_marginLeft="110dp"
             android:textColor="#ed1c24"/>
         <TextView
             android:id="@+id/tipo_contacto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="178dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
             android:textColor="#17134b"/>
     </androidx.cardview.widget.CardView>
 </LinearLayout>

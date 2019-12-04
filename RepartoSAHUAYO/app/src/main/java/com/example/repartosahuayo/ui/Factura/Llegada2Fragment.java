@@ -43,6 +43,8 @@ public class Llegada2Fragment extends Fragment implements OnMapReadyCallback {
         LatLng sydney = new LatLng(19.6406592, -99.142452);
         map.addMarker(new MarkerOptions().position(sydney).title("Sahuayo Tultitlan"));
         map.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        float zoomLevel = 16.0f;
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, zoomLevel));
     }
 
 }
